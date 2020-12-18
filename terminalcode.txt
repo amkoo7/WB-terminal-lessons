@@ -758,4 +758,140 @@ Desktop              Dropbox              Music                Projects         
 wb-commandline wesbos
  amk@Ahmads-MBP  ~/Projects   master  touch terminalcode.txt                                                                                                                  git:(master*)
  amk@Ahmads-MBP  ~/Projects   master  open terminalcode.txt                                                                                                                   git:(master*)
- amk@Ahmads-MBP  ~/Projects   master                                                                                                                                          git:(master*)
+ amk@Ahmads-MBP  ~/Projects   master  ls                                                                                                                                      git:(master*)
+terminalcode.txt wb-commandline   wesbos
+ amk@Ahmads-MBP  ~/Projects   master  git init                                                                                                                                git:(master*)
+Initialized empty Git repository in /Users/amk/Projects/.git/
+ amk@Ahmads-MBP  ~/Projects   master  git status                                                                                                                              git:(master*)
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	terminalcode.txt
+	wb-commandline/
+	wesbos/
+
+nothing added to commit but untracked files present (use "git add" to track)
+ amk@Ahmads-MBP  ~/Projects   master  cd wesbos                                                                                                                               git:(master*)
+ amk@Ahmads-MBP  ~/Projects/wesbos   master  ls                                                                                                                                git:(master)
+build                   build_alt               gulpfile.js             json_exercise_css.css   json_exercise_html.html node_modules            package-lock.json       package.json
+ amk@Ahmads-MBP  ~/Projects/wesbos   master  -                                                                                                                                 git:(master)
+~/Projects
+ amk@Ahmads-MBP  ~/Projects   master  mkdir terminalcode                                                                                                                      git:(master*)
+ amk@Ahmads-MBP  ~/Projects   master  ls                                                                                                                                      git:(master*)
+terminalcode     terminalcode.txt wb-commandline   wesbos
+ amk@Ahmads-MBP  ~/Projects   master  mv terminalcode.txt /terminalcode                                                                                                       git:(master*)
+mv: rename terminalcode.txt to /terminalcode: Read-only file system
+ ✘ amk@Ahmads-MBP  ~/Projects   master  ls                                                                                                                                    git:(master*)
+terminalcode     terminalcode.txt wb-commandline   wesbos
+ amk@Ahmads-MBP  ~/Projects   master  mv /Projects/terminalcode.txt /Projects/terminalcode                                                                                    git:(master*)
+mv: rename /Projects/terminalcode.txt to /Projects/terminalcode: No such file or directory
+ ✘ amk@Ahmads-MBP  ~/Projects   master  ls                                                                                                                                    git:(master*)
+terminalcode     terminalcode.txt wb-commandline   wesbos
+ amk@Ahmads-MBP  ~/Projects   master  mv ~/Projects/terminalcode.txt ~/Projects/terminalcode                                                                                  git:(master*)
+ amk@Ahmads-MBP  ~/Projects   master  ls                                                                                                                                      git:(master*)
+terminalcode   wb-commandline wesbos
+ amk@Ahmads-MBP  ~/Projects   master  cd terminalcode                                                                                                                         git:(master*)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  ls                                                                                                                         git:(master*)
+terminalcode.txt
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  -                                                                                                                          git:(master*)
+~/Projects
+ amk@Ahmads-MBP  ~/Projects   master  -                                                                                                                                       git:(master*)
+~/Projects/terminalcode
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  -                                                                                                                          git:(master*)
+~/Projects
+ amk@Ahmads-MBP  ~/Projects   master  -                                                                                                                                       git:(master*)
+~/Projects/terminalcode
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git init                                                                                                                   git:(master*)
+Initialized empty Git repository in /Users/amk/Projects/terminalcode/.git/
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git status                                                                                                                 git:(master*)
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	terminalcode.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git commit -m "Terminal code from wb lessons"                                                                              git:(master*)
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	terminalcode.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ ✘ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git add -A                                                                                                               git:(master*)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ✚  git reset                                                                                                                git:(master*)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git status                                                                                                                 git:(master*)
+On branch master
+
+No commits yet
+
+Untracked files:
+ ESC:...skipping...
+  (use "git add <file>..." to include in what will be committed)
+	terminalcode.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git add terminalcode.txt                                                                                                   git:(master*)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ✚  git status                                                                                                               git:(master*)
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   terminalcode.txt
+
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ✚  git commit                                                                                                               git:(master*)
+Aborting commit due to empty commit message.
+ ✘ amk@Ahmads-MBP  ~/Projects/terminalcode   master ✚  git commit -m "Terminal code from wb lessons"                                                                          git:(master*)
+[master (root-commit) 645fb72] Terminal code from wb lessons
+ 1 file changed, 761 insertions(+)
+ create mode 100644 terminalcode.txt
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git status                                                                                                                  git:(master)
+On branch master
+nothing to commit, working tree clean
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git branch                                                                                                                  git:(master)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git diff                                                                                                                    git:(master)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git log                                                                                                                     git:(master)
+
+ ✘ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git status                                                                                                                git:(master)
+On branch master
+nothing to commit, working tree clean
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git checkout master                                                                                                         git:(master)
+Already on 'master'
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git log master                                                                                                              git:(master)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git push                                                                                                                    git:(master)
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+ ✘ amk@Ahmads-MBP  ~/Projects/terminalcode   master  ls                                                                                                                        git:(master)
+terminalcode.txt
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git remote add origin https://github.com/amkoo7/WB-terminal-lessons.git                                                     git:(master)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git push u origin master                                                                                                    git:(master)
+error: src refspec origin does not match any
+error: failed to push some refs to 'u'
+ ✘ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git push -u origin master                                                                                                 git:(master)
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 8.55 KiB | 4.28 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amkoo7/WB-terminal-lessons.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master                                                                                                                              git:(master)
