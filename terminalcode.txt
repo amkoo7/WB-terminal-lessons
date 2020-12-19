@@ -1,197 +1,3 @@
-
- amk@Ahmads-MBP  /Users  open ~/.oh-my-zsh
- amk@Ahmads-MBP  /Users  open ~/.oh-my-zsh
- amk@Ahmads-MBP  /Users  cd
- amk@Ahmads-MBP  ~   master  ~                                                                                                                                                git:(master*)
- amk@Ahmads-MBP  ~   master  cd /users                                                                                                                                        git:(master*)
- amk@Ahmads-MBP  /users  cd /users/projects
-cd: no such file or directory: /users/projects
- ✘ amk@Ahmads-MBP  /users  cd /users/Projects
-cd: no such file or directory: /users/Projects
- ✘ amk@Ahmads-MBP  /users  cd /users/amk/Projects
- amk@Ahmads-MBP  /users/amk/Projects   master  ls                                                                                                                             git:(master*)
-wb-commandline wesbos
- amk@Ahmads-MBP  /users/amk/Projects   master  cd wb-commandline                                                                                                              git:(master*)
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  ls                                                                                                              git:(master*)
-css        index.html
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  mkdir Capitalize                                                                                                git:(master*)
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  cd months                                                                                                       git:(master*)
-cd: no such file or directory: months
- ✘ amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  ..                                                                                                            git:(master*)
- amk@Ahmads-MBP  /users/amk/Projects   master  ...                                                                                                                            git:(master*)
- amk@Ahmads-MBP  /users  take
-usage: mkdir [-pv] [-m mode] directory ...
- ✘ amk@Ahmads-MBP  /users  touch
-usage:
-touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
- ✘ amk@Ahmads-MBP  /users 
- ✘ amk@Ahmads-MBP  /users  code ~/.zsh
- amk@Ahmads-MBP  /users  code ~/.zshrc
- amk@Ahmads-MBP  /users  extract
-zsh: command not found: extract
- ✘ amk@Ahmads-MBP  /users  source ~/.zshrc
- amk@Ahmads-MBP  /users  cd /users/amk
- amk@Ahmads-MBP  /users/amk   master  ls                                                                                                                                      git:(master*)
-Applications         Desktop              Downloads            Library              Music                Pictures             Public               data                 website-v2
-Creative Cloud Files Documents            Dropbox              Movies               OneDrive             Projects             README.md            website-v1
- amk@Ahmads-MBP  /users/amk   master  cd Projects                                                                                                                             git:(master*)
- amk@Ahmads-MBP  /users/amk/Projects   master  ls                                                                                                                             git:(master*)
-wb-commandline wesbos
- amk@Ahmads-MBP  /users/amk/Projects   master  cd wb-commandline                                                                                                              git:(master*)
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  extract                                                                                                         git:(master*)
-Usage: extract [-option] [file ...]
-
-Options:
-    -r, --remove    Remove archive after unpacking.
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  ll                                                                                                              git:(master*)
-total 0
-drwxr-xr-x  2 amk  staff    64B Dec 17 16:09 Capitalize
-drwxr-xr-x  3 amk  staff    96B Dec 17 13:49 css
--rw-r--r--  1 amk  staff     0B Dec 17 13:48 index.html
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  ls                                                                                                              git:(master*)
-Capitalize css        index.html
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  ls -l                                                                                                           git:(master*)
-total 0
-drwxr-xr-x  2 amk  staff  64 Dec 17 16:09 Capitalize
-drwxr-xr-x  3 amk  staff  96 Dec 17 13:49 css
--rw-r--r--  1 amk  staff   0 Dec 17 13:48 index.html
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  cloudapp index.html                                                                                             git:(master*)
-zsh: command not found: cloudapp
- ✘ amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  source ~/.zshrc                                                                                               git:(master*)
-[oh-my-zsh] The CloudApp API no longer works, so the cloudapp plugin will
-[oh-my-zsh] be removed shortly. Please remove it from your plugins list.
- amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  index                                                                                                           git:(master*)
-zsh: command not found: index
- ✘ amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  index                                                                                                         git:(master*)
-zsh: command not found: index
- ✘ amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  git                                                                                                           git:(master*)
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-
-These are common Git commands used in various situations:
-
-start a working area (see also: git help tutorial)
-   clone             Clone a repository into a new directory
-   init              Create an empty Git repository or reinitialize an existing one
-
-work on the current change (see also: git help everyday)
-   add               Add file contents to the index
-   mv                Move or rename a file, a directory, or a symlink
-   restore           Restore working tree files
-   rm                Remove files from the working tree and from the index
-   sparse-checkout   Initialize and modify the sparse-checkout
-
-examine the history and state (see also: git help revisions)
-   bisect            Use binary search to find the commit that introduced a bug
-   diff              Show changes between commits, commit and working tree, etc
-   grep              Print lines matching a pattern
-   log               Show commit logs
-   show              Show various types of objects
-   status            Show the working tree status
-
-grow, mark and tweak your common history
-   branch            List, create, or delete branches
-   commit            Record changes to the repository
-   merge             Join two or more development histories together
-   rebase            Reapply commits on top of another base tip
-   reset             Reset current HEAD to the specified state
-   switch            Switch branches
-   tag               Create, list, delete or verify a tag object signed with GPG
-
-collaborate (see also: git help workflows)
-   fetch             Download objects and refs from another repository
-   pull              Fetch from and integrate with another repository or a local branch
-   push              Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
- ✘ amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master  z command                                                                                                     git:(master*)
-zsh: command not found: z
- ✘ amk@Ahmads-MBP  /users/amk/Projects/wb-commandline   master   ~                                                                                                            git:(master*)
- amk@Ahmads-MBP  ~   master  cd                                                                                                                                               git:(master*)
- amk@Ahmads-MBP  ~   master  cd ..                                                                                                                                            git:(master*)
- amk@Ahmads-MBP  /Users  brew
-_store_cache:46: permission denied: /Users/amk/.oh-my-zsh/cache/brew_all_commands
- amk@Ahmads-MBP  /Users  sudo brew
-_store_cache:46: permission denied: /Users/amk/.oh-my-zsh/cache/brew_all_commands
- amk@Ahmads-MBP  /Users  sudo brew
---cache       -- brew cache
---cellar      -- brew cellar
---env         -- brew environment
---prefix      -- where brew lives on this system
---repository  -- brew repository
---version     -- version information
-audit         -- check formulae for Homebrew coding style
-cat           -- display formula file for a formula
-cleanup       -- uninstall unused and old versions of packages
-commands      -- show a list of commands
-config        -- show homebrew and system configuration
-create        -- create a new formula
-deps          -- list dependencies of formulae
-desc          -- display a description of a formula
-doctor        -- audits your installation for common issues
-edit          -- edit a formula
-fetch         -- download formula resources to the cache
-formula       -- the path for a formula
-formulae      -- show a sorted list of installable formulae
-gist-logs     -- generate a gist of the full build logs
-home          -- visit the homepage of a formula or the brew project
-info          -- information about a formula
-install       -- install a formula
-leaves        -- show installed formulae that are not dependencies of another installed formula
-link          -- link a formula
-list          -- list files in a formula or not-installed formulae
-log           -- git commit log for a formula
-migrate       -- migrate renamed formula to new name
-missing       -- check all installed formulae for missing dependencies.
-outdated      -- list formulae for which a newer version is available
-pin           -- pin specified formulae
-postinstall   -- perform post_install for a given formula
-reinstall     -- install a formula anew; re-using its current options
-remove        -- remove a formula
-search        -- search for a formula or cask (/regex/ or string)
-switch        -- switch between different versions of a formula
-tap           -- tap a new formula repository from GitHub, or list existing taps
-tap-info      -- information about a tap
-test-bot      -- test a formula and build a bottle
-uninstall     -- uninstall a formula
-unlink        -- unlink a formula
-unpin         -- unpin specified formulae
-untap         -- remove a tapped repository
-update        -- fetch latest version of Homebrew and all formulae
-upgrade       -- upgrade outdated formulae
-uses          -- show formulae which depend on a formula
---cache                      bump                         edit                         ln                           release-notes                unlink
---caskroom                   bump-cask-pr                 environment                  log                          remove                       unpack
---cellar                     bump-formula-pr              extract                      ls                           rm                           unpin
---config                     bump-revision                fetch                        man                          ruby                         untap
---env                        bump-unversioned-casks       formula                      migrate                      search                       up
---prefix                     cask                         formulae                     mirror                       sh                           update
---repo                       cat                          gist-logs                    missing                      shellenv                     update-license-data
---repository                 cleanup                      help                         options                      sponsors                     update-python-resources
---version                    command                      home                         outdated                     style                        update-report
--S                           commands                     homepage                     pin                          switch                       update-reset
--v                           config                       info                         postgresql-upgrade-database  tap                          update-test
-_help                        configure                    install                      postinstall                  tap-info                     upgrade
-_stanza                      create                       install-bundler-gems         pr-automerge                 tap-new                      uses
-abv                          deps                         irb                          pr-publish                   tc                           vendor-gems
-analytics                    desc                         leaves                       pr-pull                      test                         vendor-install
-aspell-dictionaries          dispatch-build-bottle        link                         pr-upload                    tests                        zap
-audit                        diy                          linkage                      prof                         typecheck
-autoremove                   doctor                       list                         readall                      unbottled
-bottle                       dr                           livecheck                    reinstall                    uninstall
- amk@Ahmads-MBP  /Users  brew install z
-Updating Homebrew...
-==> Auto-updated Homebrew!
-Updated 2 taps (homebrew/core and mongodb/brew).
-==> New Formulae
-aida-header        aws-console        heppdt2            libvnc             muffet             oakc               trec_eval          wayland            xcbeautify         xcinfo
-==> Updated Formulae
 Updated 316 formulae.
 
 ==> Downloading https://github.com/rupa/z/archive/v1.9.tar.gz
@@ -894,4 +700,62 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/amkoo7/WB-terminal-lessons.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  open terminalcode.txt                                                                                                       git:(master)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git status                                                                                                                  git:(master)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   terminalcode.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ±  git push                                                                                                                 git:(master*)
+Everything up-to-date
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ±  open terminalcode.txt                                                                                                    git:(master*)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ±  git status                                                                                                               git:(master*)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   terminalcode.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ±  git commit -m "Updated terminal code 20201218:1200"                                                                      git:(master*)
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   terminalcode.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ ✘ amk@Ahmads-MBP  ~/Projects/terminalcode   master ±  git add terminalcode.txt                                                                                               git:(master*)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master ✚  git commit -m "Updated terminal code 20201218:1200"                                                                      git:(master*)
+[master b2f2179] Updated terminal code 20201218:1200
+ 1 file changed, 137 insertions(+), 1 deletion(-)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git status                                                                                                                  git:(master)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  open terminalcode.txt                                                                                                       git:(master)
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  git push                                                                                                                    git:(master)
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.77 KiB | 1.77 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/amkoo7/WB-terminal-lessons.git
+   645fb72..b2f2179  master -> master
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  ls                                                                                                                          git:(master)
+terminalcode.txt
+ amk@Ahmads-MBP  ~/Projects/terminalcode   master  open terminalcode.txt                                                                                                       git:(master)
  amk@Ahmads-MBP  ~/Projects/terminalcode   master                                                                                                                              git:(master)
